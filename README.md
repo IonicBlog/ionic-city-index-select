@@ -18,7 +18,7 @@
 
 >![image](https://git.oschina.net/tonge/ionic-city-index-select/raw/master/www/img/TongeBlog.jpg)
 
->** 加群交流：[Tonge移动跨平台开发QQ交流群] **
+>**加群交流：[Tonge移动跨平台开发QQ交流群]**
 
 >![image](https://git.oschina.net/tonge/ionic-city-index-select/raw/master/www/img/qqgroup.png)
 
