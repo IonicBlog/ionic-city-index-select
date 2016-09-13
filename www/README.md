@@ -1,6 +1,6 @@
-This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).
+基于ionic实现的城市索引选择，预览地址：[city.tongedev.cn](http://city.tongedev.cn/).
 
-## How to use this template
+## 如何使用它？
 
 *This template does not work on its own*. It is missing the Ionic library, and AngularJS.
 
