@@ -1,5 +1,5 @@
 #ionic-city-index-select
-基于ionic实现的城市索引选择。
+基于ionic实现的城市索引选择。[https://git.oschina.net/tonge/ionic-city-index-select](https://git.oschina.net/tonge/ionic-city-index-select)
  
 ## Demo
 预览地址：[city.tongedev.cn](http://city.tongedev.cn/)
