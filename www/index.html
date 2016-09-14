@@ -45,9 +45,13 @@
       <div class="list city">
         <ion-item class="item" ng-repeat="city in filterCities" ng-click="citySelected(city)" ng-bind="city.name">
         </ion-item>
-        <ion-item class="item">
-          定位城市： 武汉
+        <ion-item class="item-divider">
+          当前城市
         </ion-item>
+        <ion-item class="item">
+            <a class="cityItem" >武汉</a>
+        </ion-item>
+
         <div ng-repeat="city in cities">
           <ion-item class="item-divider">
             <span id="{{city.index}}" ng-bind="city.index"> </span>
