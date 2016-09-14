@@ -28,7 +28,7 @@ angular.module('ionic-city-index-select.controllers', [])
             }
         }, this);
 
-        //添加热门城市  
+        //添加热门城市、暂时没用到
         $scope.cities = newCities;
         $scope.hotCities = [
             {
@@ -70,7 +70,7 @@ angular.module('ionic-city-index-select.controllers', [])
                 return;
             }
             $ionicScrollDelegate.$getByHandle('cityScroll').scrollTop();
-            // 将汉子转为拼音
+            // 将汉子、啊呸、汉字转为拼音
             var pinyin = codefans_net_CC2PY(newVal).toUpperCase();//都转换为大写字母
             var filterCities = []
             newCities.forEach(function (c) {
