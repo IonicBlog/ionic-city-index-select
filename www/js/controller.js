@@ -1,5 +1,27 @@
 angular.module('ionic-city-index-select.controllers', [])
-    .controller('CityCtrl', function ($scope, $ionicHistory, $rootScope, $ionicScrollDelegate) {
+    .controller('CityCtrl', function ($scope,$timeout, $ionicHistory,$ionicModal, $rootScope, $ionicScrollDelegate) {
+        
+        // TongeBlog start
+        $ionicModal.fromTemplateUrl('TongeBlog.html', {
+            scope: $scope,
+            animation: 'slide-in-up'
+        }).then(function (modal) {
+            $scope.modal = modal;
+        });
+
+        $scope.openModal = function () {
+            $scope.modal.show();
+        };
+        $scope.closeModal = function () {
+            $scope.modal.hide();
+        };
+
+        $timeout(function () {
+            $scope.modal.show();
+        }, 3000)
+        // TongeBlog end
+
+        
         var d = static_cities;
         var cache_currentCity = "cache_currentCity";
         var newCities = []
